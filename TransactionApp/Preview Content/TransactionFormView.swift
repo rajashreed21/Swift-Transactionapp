@@ -33,7 +33,7 @@ struct TransactionFormView: View {
                 
                 Section {
                     Button(action: {
-                        // Add transaction logic
+                    
                     }) {
                         Text("Add Transaction")
                     }

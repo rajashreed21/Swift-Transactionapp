@@ -36,6 +36,24 @@ struct ContentView: View {
     }
 }
 
+struct AdaptiveView: View {
+    @Environment(\.colorScheme) var colorScheme
+
+    var body: some View {
+        VStack {
+            Text("Adaptive UI")
+                .font(.largeTitle)
+                .padding()
+
+            if colorScheme == .dark {
+                Text("Dark Mode")
+                    .foregroundColor(.white)
+            } else {
+                Text("Light Mode")
+            }
+        }
+    }
+}
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView().environmentObject(TransactionStore())

@@ -20,6 +20,7 @@
 		B887C0062C18177B00187EC0 /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B887C0052C18177B00187EC0 /* TransactionRow.swift */; };
 		B887C0082C18179500187EC0 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B887C0072C18179500187EC0 /* DashboardView.swift */; };
 		B887C00A2C18180A00187EC0 /* TransactionFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B887C0092C18180A00187EC0 /* TransactionFormView.swift */; };
+		B8B66D2E2C19601E0080A132 /* CurrencyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B66D2D2C19601E0080A132 /* CurrencyListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		B887C0052C18177B00187EC0 /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
 		B887C0072C18179500187EC0 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		B887C0092C18180A00187EC0 /* TransactionFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionFormView.swift; sourceTree = "<group>"; };
+		B8B66D2D2C19601E0080A132 /* CurrencyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				B887C0052C18177B00187EC0 /* TransactionRow.swift */,
 				B887C0072C18179500187EC0 /* DashboardView.swift */,
 				B887C0092C18180A00187EC0 /* TransactionFormView.swift */,
+				B8B66D2D2C19601E0080A132 /* CurrencyListView.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				B887C00A2C18180A00187EC0 /* TransactionFormView.swift in Sources */,
 				B887BFD82C18159D00187EC0 /* ContentView.swift in Sources */,
 				B887C0042C18175900187EC0 /* TransactionListView.swift in Sources */,
+				B8B66D2E2C19601E0080A132 /* CurrencyListView.swift in Sources */,
 				B887C0082C18179500187EC0 /* DashboardView.swift in Sources */,
 				B887C0062C18177B00187EC0 /* TransactionRow.swift in Sources */,
 				B887BFD62C18159D00187EC0 /* TransactionAppApp.swift in Sources */,

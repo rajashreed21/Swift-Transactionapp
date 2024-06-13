@@ -23,7 +23,6 @@ struct DashboardView: View {
                 .foregroundColor(Color.pink)
                 .padding()
                 
-            // Add charts or graphs to display spending trends
         }
         .navigationBarTitle("Dashboard")
         
